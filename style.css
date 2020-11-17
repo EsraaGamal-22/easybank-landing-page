@@ -1,0 +1,404 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.1rem;
+    font-family: 'Public Sans', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(233, 26%, 24%);
+
+}
+h1,h2{
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+h1{
+    margin-bottom: 0;
+
+}
+
+p{
+    line-height: 1.5em;
+    color:hsl(233, 8%, 62%);
+
+}
+header{
+    padding: 0.5em 1em;
+}
+.head-nor{
+    opacity: 1;
+    background-color: hsl(0, 0%, 100%);
+}
+button{
+    width:20%;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    padding:1em;
+    background:linear-gradient(hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    border:none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.container{
+    width:100%;
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.menu-items {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:hsl(230, 29%, 20%);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 7px);
+    transform: rotate(-45deg) translate(-8px, 7px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .nav-max{
+    display: none;
+}
+.head-btn{
+    display: none;
+}
+.nav-min{
+    display: initial;
+    width:85%;
+    position: absolute;
+    top:4em;
+    left:1.5em;
+    z-index: 10;
+    background-color:rgb(255, 255, 255);
+}
+.nav-list{
+    list-style: none;
+    text-align: center;
+    padding-left: 0em;
+}
+.nav-item{
+    padding:0.5em 0;
+}
+.nav-link{
+    text-decoration: none;
+    color:hsl(233, 26%, 24%);
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+.head-btn
+{
+    display:none;
+}
+.intro,.bank-articles{
+    background-color:hsl(0, 0%, 98%) ;
+    
+}
+.img-intro{
+    background-image: url("images/bg-intro-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+}
+.intro-imgg
+{
+    width:100%;
+}
+.img-back{
+    height: 230px;
+ 
+}
+.intro-content, .def-bank
+{
+    width:97%;
+    font-size: 1rem;
+    margin:0 auto;
+    text-align: center;
+}
+.intro-btn{
+    margin-top:1em;
+    width:40%;
+}
+.bank-features
+{
+    margin-top:5em;
+    padding:3em 0;
+    background-color:hsl(220, 16%, 96%);
+}
+.feature-content
+{
+    width:90%;
+    margin:0 auto;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 0.5em;
+    border-radius: 5px;
+
+}
+.feature-content + .feature-content{
+    margin-top: 1.5em;
+}
+
+.centered{
+    text-align: center;
+    background-color: unset;
+
+}
+.bank-articles{
+    padding:6em 0 4em 0;
+}
+.art-head
+{
+    text-align: center;
+}
+.art-imgg{
+    width:100%;
+    height:13rem;
+}
+.article-img{
+   width: 100%;
+   height: 100%;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+
+}
+.art-content{
+    width:85%;
+    margin:0 auto;
+}
+.art-name{
+    font-size:x-small;
+}
+.art-link{
+    text-decoration: none;
+    color:hsl(233, 26%, 24%);
+}
+.art-link:hover{
+    cursor: pointer;
+    color:hsl(192, 70%, 51%);
+}
+footer{ 
+    padding: 2em 0;
+    background-color:hsl(233, 26%, 24%) ;
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom: 0;
+}
+.social-sites
+{
+    margin-top: 1em;
+}
+.social-link + .social-link{
+    margin-left:0.5em;
+
+}
+
+.fab{ 
+    color:hsl(0, 0%, 100%);
+    font-size:1.3rem;
+ }
+.fab:hover{
+    color:hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.list-info
+{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.item-list +.item-list{
+    margin-top: 1em;
+}
+.link-list
+{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.link-list:hover{
+    color:hsl(136, 65%, 51%);
+}
+.foot:hover{ 
+    background:linear-gradient(hsl(135, 59%, 84%),hsl(192, 70%, 75%));
+}
+.rights-info
+{
+    margin-top: 1em;
+}
+@media(min-width:700px) and (max-width:1100px)
+{
+    body{
+        font-size: 2rem;
+    }
+    h1,h2{
+        font-size: 3.3rem;
+    }
+    button{
+        font-size: 1.5rem;
+        border-radius: 35px;
+    }
+    .intro-content, .def-bank
+    {
+        font-size: 1.5rem;
+    }
+    .feature-content
+   {
+        width:60%;
+   }
+   .fab{ 
+    font-size:1.7rem;
+   }
+  
+
+}
+@media(min-width:1200px)
+{
+    .container{
+        width:95%;
+    }
+    .container-1{
+        width:100%;
+    }
+    body{
+        font-size: 1rem;
+    }
+    h1{
+        font-size:3.5rem
+    }
+    
+    .head-btn {
+        display: initial;
+        width:20%;
+    }
+   
+    .menu-items{
+        display: none;
+    }
+    .nav-max{
+        width:68%;
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+    }
+   .nav-list{
+    display:flex;
+    align-items: center;
+
+    }
+    .nav-item + .nav-item
+    {
+        margin-left: 1.3em;
+    }
+    .nav-link{
+        color:hsl(233, 8%, 62%);
+    }
+   
+    .nav-link:hover{
+        padding-bottom: 1.5em;
+        color:hsl(233, 26%, 24%);
+    }
+    .img-intro{
+        width:50%;
+        background-image: url("images/bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-size:990px ;
+        overflow: hidden;
+    }
+    .row-1 , .row-2{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .row-1{
+        flex-direction: row-reverse;
+
+    }
+    .intro-imgg
+    {
+        width:110%;
+    }
+    .intro-content{
+        width:32%;
+        text-align: unset;
+        padding-bottom:20em
+    }
+    .intro-btn
+    {
+        width:30%;
+    }
+    
+    .bank-features
+    {
+        margin-top: -10em;
+    }
+   
+    .def-bank
+    {
+    width:45%;
+    margin-left: 3.5em;
+    text-align: unset;
+   }
+   .art-head{
+       margin-left: 3em;
+       text-align: unset;
+   }
+   .feature-content
+   {
+    width:24%;
+    margin:unset;
+    
+    }
+    .feature-content + .feature-content{
+        margin-top: unset;
+    }
+    .centered
+    {
+        text-align: unset;    
+    }
+    footer{
+        text-align: unset;
+    }
+    .contact-info 
+   {
+    width:25%;
+   }
+   .social-sites
+  {
+    margin-top: 2.5em;
+  }
+  .foot{
+      width:60%;
+  }
+
+  
+  
+}
