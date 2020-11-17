@@ -25,7 +25,7 @@ p{
 
 }
 header{
-    padding: 0.5em 1em;
+    padding: 0.8em 1em;
 }
 .head-nor{
     opacity: 1;
@@ -188,6 +188,7 @@ button:hover{
    height: 100%;
    border-top-left-radius: 5px;
    border-top-right-radius: 5px;
+   object-fit: cover;
 
 }
 .art-content{
@@ -323,7 +324,7 @@ footer{
     }
    
     .nav-link:hover{
-        padding-bottom: 1.5em;
+        padding-bottom: 1.9em;
         color:hsl(233, 26%, 24%);
     }
     .img-intro{
